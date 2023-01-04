@@ -98,6 +98,16 @@ body{
   
   font-size: 10px;
 }
+.top-left span{
+  cursor: pointer;
+}
+.top-left span:nth-of-type(1):hover{
+  color: red;
+}
+#fill-heart{
+  display: none;
+  fill: red;
+}
 .top-center{
   grid-area: top-center;
   display: flex;
